@@ -8,3 +8,5 @@ if [ -f "$HOME/.bash_aliases" ]; then
    source "$HOME/.bash_aliases"
 fi
 ```
+
+Refer to ADDTORC to place the appropriate if statements into the shell's rc file
