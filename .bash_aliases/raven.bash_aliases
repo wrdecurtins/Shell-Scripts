@@ -1,5 +1,5 @@
 alias fixdisplay="xrandr --output DP-3-3 --mode 3840x2160 --rate 30 --pos 0x0 --rotate normal"
-alias fixheadphones="~/raven.sh/fixheadphones.sh"
-alias mute="~/raven.sh/muteheadphones.sh"
+alias fixheadphones="~/Shell-Scripts/raven.sh/fixheadphones.sh"
+alias mute="~/Shell-Scripts/raven.sh/muteheadphones.sh"
 alias v2="code ~/Desktop/v2-ui"
 alias rec="code ~/Desktop/rec-component-library"
