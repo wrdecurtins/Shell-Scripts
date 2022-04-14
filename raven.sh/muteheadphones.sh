@@ -1,0 +1,1 @@
+pactl get-source-mute bluez_source.50_C2_ED_9A_BF_B3.handsfree_head_unit | grep yes && pacmd set-source-mute bluez_source.50_C2_ED_9A_BF_B3.handsfree_head_unit 0 || pacmd set-source-mute bluez_source.50_C2_ED_9A_BF_B3.handsfree_head_unit 1
