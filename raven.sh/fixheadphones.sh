@@ -1,2 +1,3 @@
+pacmd set-card-profile bluez_card.50_C2_ED_9A_BF_B3 handsfree_head_unit
 pacmd set-default-sink bluez_sink.50_C2_ED_9A_BF_B3.handsfree_head_unit
 pacmd set-default-source bluez_source.50_C2_ED_9A_BF_B3.handsfree_head_unit
