@@ -1,0 +1,3 @@
+pacmd set-card-profile bluez_card.78_2B_64_28_95_07 handsfree_head_unit
+pacmd set-default-sink bluez_sink.78_2B_64_28_95_07.handsfree_head_unit
+pacmd set-default-source bluez_source.78_2B_64_28_95_07.handsfree_head_unit
