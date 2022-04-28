@@ -4,3 +4,6 @@ fi
 if [ -f "$HOME/Shell-Scripts/.bash_aliases/raven.bash_aliases" ]; then
    source "$HOME/Shell-Scripts/.bash_aliases/raven.bash_aliases"
 fi
+if [ -f "$HOME/Shell-Scripts/.bash_aliases/manjaro.bash_aliases" ]; then
+   source "$HOME/Shell-Scripts/.bash_aliases/manjaro.bash_aliases"
+fi
