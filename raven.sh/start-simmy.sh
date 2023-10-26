@@ -3,4 +3,4 @@ if  [[ "$PWD" != '/home/will/Desktop/simmy' ]]; then
   cd /home/will/Desktop/simmy
 fi
 
-./terraform/utility/start-simmy.sh
+./simmy.sh -u will_simmy -D

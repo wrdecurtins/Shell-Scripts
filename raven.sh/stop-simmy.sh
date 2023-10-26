@@ -4,8 +4,4 @@ if  [[ "$PWD" != '/home/will/Desktop/simmy' ]]; then
   cd /home/will/Desktop/simmy
 fi
 
-cd terraform
-
-source .env
-
-terraform destroy -auto-approve
+./simmy.sh --stop-all
