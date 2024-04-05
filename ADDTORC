@@ -1,9 +1,17 @@
+# COMMON
 if [ -f "$HOME/Shell-Scripts/.bash_aliases/common.bash_aliases" ]; then
    source "$HOME/Shell-Scripts/.bash_aliases/common.bash_aliases"
 fi
+
+# RAVEN
 if [ -f "$HOME/Shell-Scripts/.bash_aliases/raven.bash_aliases" ]; then
    source "$HOME/Shell-Scripts/.bash_aliases/raven.bash_aliases"
 fi
+if [ -f "$HOME/Shell-Scripts/.path_exports/raven.path_exports.sh" ]; then
+   source "$HOME/Shell-Scripts/.path_exports/raven.path_exports.sh"
+fi
+
+# MANJARO
 if [ -f "$HOME/Shell-Scripts/.bash_aliases/manjaro.bash_aliases" ]; then
    source "$HOME/Shell-Scripts/.bash_aliases/manjaro.bash_aliases"
 fi
