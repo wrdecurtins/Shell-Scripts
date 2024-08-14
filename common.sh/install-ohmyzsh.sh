@@ -1,5 +1,7 @@
 #!/bin/bash
-# installs zsh
+# installs ohmyzsh
+
+echo "You will need to install zsh first"
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
