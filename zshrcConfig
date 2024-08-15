@@ -1,0 +1,14 @@
+ZSH_THEME="jonathan"
+plugins=(
+    git
+    alias-finder
+    aliases
+    debian
+    ubuntu
+    sudo
+    thefuck
+    z
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    zsh-autocomplete
+)
