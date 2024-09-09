@@ -12,3 +12,4 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autocomplete
 )
+zstyle ':autocomplete:*' min-delay 1
