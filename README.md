@@ -13,3 +13,10 @@ if [ -f "$HOME/.bash_aliases" ]; then
    source "$HOME/.bash_aliases"
 fi
 ```
+
+# Terminal colors
+
+```
+./common.sh/create-dircolors.sh
+source ./dircolors
+```
