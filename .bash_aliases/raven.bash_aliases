@@ -18,6 +18,7 @@ alias hermes-schemas="code ~/Desktop/hermes-schemas"
 alias database="code ~/Desktop/database"
 alias path-planner="pp"
 alias pp="code ~/Desktop/path-planner"
+alias hermes="code ~/Desktop/hermes"
 
 alias fixdisplay="xrandr --output DP-3-3 --mode 3840x2160 --rate 30 --pos 0x0 --rotate normal"
 alias fixheadphones="~/Shell-Scripts/raven.sh/fixheadphones.sh"
