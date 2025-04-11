@@ -42,5 +42,7 @@ alias restart-simmy="stop-simmy && start-simmy"
 alias alarm-app="~/Shell-Scripts/raven.sh/alarm-app.sh"
 alias dumpsimmylog="~/Shell-Scripts/raven.sh/dump-simmy-log.sh"
 alias updatetranslations="~/Shell-Scripts/raven.sh/update-translations.sh"
+alias start-ob="~/Shell-Scripts/raven.sh/getStartLocalOrangebox.sh"
+alias eng-infra="aws sso login --profile eng-infra && export AWS_PROFILE=eng-infra"
 
 eval "$(mise activate zsh)"
