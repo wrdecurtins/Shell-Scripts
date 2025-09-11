@@ -38,6 +38,8 @@ alias alarm-app="~/Shell-Scripts/raven.sh/alarm-app.sh"
 alias dumpsimmylog="~/Shell-Scripts/raven.sh/dump-simmy-log.sh"
 alias updatetranslations="~/Shell-Scripts/raven.sh/update-translations.sh"
 alias start-ob="~/Shell-Scripts/raven.sh/getStartLocalOrangebox.sh"
+alias remote-copy="~/Shell-Scripts/raven.sh/rsync-copy-from-machine.sh"
+alias vpnsso="~/Shell-Scripts/raven.sh/vpnsso.sh"
 
 alias fixdisplay="xrandr --output DP-3-3 --mode 3840x2160 --rate 30 --pos 0x0 --rotate normal"
 alias pwresults="npx playwright show-report playwright-results/reports"

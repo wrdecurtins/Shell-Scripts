@@ -8,9 +8,9 @@ plugins=(
     sudo
     thefuck
     z
-    zsh-autosuggestions
+    # zsh-autosuggestions
     zsh-syntax-highlighting
-    zsh-autocomplete
+    # zsh-autocomplete
 )
 zstyle ':autocomplete:*' min-delay 1
 
