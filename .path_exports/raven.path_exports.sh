@@ -6,3 +6,5 @@ case ":$PATH:" in
 esac
 # bit endexport PATH=$(npm bin -g):$PATH
 export PATH=$HOME/bin:$PATH
+export AWS_PROFILE=eng-infra
+export AWS_REGION=us-east-2
