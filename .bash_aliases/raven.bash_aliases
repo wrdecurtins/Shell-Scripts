@@ -19,6 +19,8 @@ alias database="code ~/Desktop/database"
 alias path-planner="pp"
 alias pp="code ~/Desktop/path-planner"
 alias hermes="code ~/Desktop/hermes"
+alias unit-system="code ~/Desktop/unit-system"
+alias dls-components="code ~/Desktop/dls-components"
 
 # Script Aliases
 alias fixheadphones="~/Shell-Scripts/raven.sh/fixheadphones.sh"
@@ -54,6 +56,5 @@ alias eng-infra="aws sso login --profile eng-infra && export AWS_PROFILE=eng-inf
 alias prod-infra="aws sso login --profile Slingshot_Prod_ReadOnly-163096597674 && export AWS_PROFILE=Slingshot_Prod_ReadOnly-163096597674 && export AWS_REGION=us-east-2"
 alias prod-ops="aws sso login --profile sling_prod_ops && export AWS_PROFILE=sling_prod_ops && export AWS_REGION=us-east-2"
 alias prod-read="aws sso login --profile sling_prod_read && export AWS_PROFILE=sling_prod_read && export AWS_REGION=us-east-2"
-
 
 eval "$(mise activate zsh)"
