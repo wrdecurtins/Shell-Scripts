@@ -21,6 +21,7 @@ alias pp="code ~/Desktop/path-planner"
 alias hermes="code ~/Desktop/hermes"
 alias unit-system="code ~/Desktop/unit-system"
 alias dls-components="code ~/Desktop/dls-components"
+alias ota="code ~/Desktop/ota-api"
 
 # Script Aliases
 alias fixheadphones="~/Shell-Scripts/raven.sh/fixheadphones.sh"
