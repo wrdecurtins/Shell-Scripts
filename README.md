@@ -20,3 +20,10 @@ fi
 ./common.sh/create-dircolors.sh
 source ./dircolors
 ```
+# Enable git rerere
+
+https://dev.to/schiff_heimlich/git-rerere-the-feature-you-didnt-know-you-needed-383o
+
+```bash
+git config --global rerere.enabled true
+```
